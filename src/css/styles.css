@@ -18,3 +18,23 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+#search-box:focus {
+  border-color: navy;
+  outline: none;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.country-name {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.country-data {
+  font-weight: bold;
+}
